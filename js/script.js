@@ -1,6 +1,7 @@
 // Primo e secondo punto dell'esercizio
 
 let num = 2;
+var random_num = 10;
 
 num += 4;
 
@@ -11,12 +12,20 @@ const NUM = 5;
 // NUM += 10;
 console.log(NUM); // dá errore perché non é possibile riassegnare una costante
 
-function add() {
-	let num = 3;
-	return num;
+// function add() {
+// 	var num_1 = num;
+// }
+
+// add();
+
+function add2() {
+	var random_num2 = random_num;
 }
 
-console.log(num, add());
+add2();
+
+// console.log(num, num_1);
+// console.log(random_num, random_num2);
 
 // Terzo punto dell'esercizio
 
